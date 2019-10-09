@@ -1,0 +1,6 @@
+docker run hello-world
+
+# List Docker containers (running, all, all in quiet mode)
+# 'docker container ls'
+# 'docker container ls --all'
+# 'docker container ls -aq'

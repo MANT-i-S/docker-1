@@ -1,0 +1,3 @@
+docker-machine ip Char
+
+# You can also get couple ips by adding it like this 'docker-machine ip Char Char2 Char3'

@@ -1,0 +1,4 @@
+eval $(docker-machine env Char)
+
+# Run command 'docker-machine env Char' to get unswer
+# You can check result by 'docker-machine ls' (column ACTIVE changed to '*')
