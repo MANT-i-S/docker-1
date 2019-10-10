@@ -1,0 +1,7 @@
+apt-get update
+apt-get upgrade -y
+apt-get install -y build-essential git
+
+# Before using commands above 'docker run -t -i --rm debian'
+# Build-essential contains a list of packages which are essential for
+# Building Ubuntu packages including gcc compiler, make and other required tools.

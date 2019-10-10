@@ -1,0 +1,17 @@
+docker run -d --name spawning-pool --restart=on-failure:10 -e MYSQL_ROOT_PASSWORD=Kerrigan -e MYSQL_DATABASE=zerglings -v hatchery:/var/lib/mysql mysql:5.7
+
+# -d --detach - run container in the background
+# --restart=on-failure:10 - restart on failure with a limit of 10 restarts
+# -e, --env list — Set environment variables
+
+# MYSQL_ROOT_PASSWORD='password' - mandatory variable
+# MYSQL_DATABASE='name' - optional variable
+
+# -v --volume - 
+# 1.In the case of named volumes, the first field is the name of the volume, and is unique on a given host machine.
+# For anonymous volumes, the first field is omitted.
+# 2.The second field is the path where the file or directory are mounted in the container.
+
+# /var/lib/mysql is the default directory where MySQL container writes its files.
+
+# Alternative unswer 'docker run -d --name spawning-pool --restart=on-failure:10 -e MYSQL_ROOT_PASSWORD=Kerrigan -e MYSQL_DATABASE=zerglings -v hatchery:/var/lib/mysql mysql --default-authentication-plugin=mysql_native_password'
