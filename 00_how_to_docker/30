@@ -1,0 +1,5 @@
+docker service scale -d marines=20
+
+# Scale — Scale one or multiple replicated services.
+# -d --detach — Exit immediately instead of waiting for the service to converge.
+# To check result 'docker service logs -f $(docker service ps marines -f "name=marines.11" -q)'
