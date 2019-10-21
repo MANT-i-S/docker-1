@@ -1,7 +1,8 @@
 docker-machine create --driver virtualbox Char
 
 # You can check result by 'docker-machine ls'
-#docker-machine stop 'name'
-#VBoxManage modifyvm 'name' --cpus 2
-#VBoxManage modifyvm 'name' --memory 4096
-#docker-machine start 'name'
+# Its pretty useful to give more memory and cpus to your machine to save time =)
+# docker-machine stop 'name'
+#VBoxManage modifyvm 'name' --cpus 4
+#VBoxManage modifyvm 'name' --memory 8000
+# docker-machine start 'name'
