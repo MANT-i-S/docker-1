@@ -1,3 +1,3 @@
-![Docker logo](https://github.com/MANT-i-S/imgs/blob/master/docker595x335_0.jpg)
+![Docker logo](https://github.com/MANT-i-S/docker-1/blob/master/Docker_logo.jpg)
 
 Introduction to Dock
